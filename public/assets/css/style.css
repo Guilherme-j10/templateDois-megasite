@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: Arial;
+}
+
+body img {
+    max-width: 100%;
+}
+
+body {
+    color: #fff;
+}
+
+.div_box {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #222;
+    padding: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div_box header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.div_box header h1 {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.div_box .standard {
+    width: 70%;
+    border: solid 1px #333;
+    padding: 24px;
+    border-radius: 5px;
+    background-color: #444;
+    box-shadow: 0px 0px 25px 1px #111;
+    margin-bottom: 50px;
+}
+
+.div_box .standard:last-child {
+    margin-bottom: 0px;
+}
+
+.div_box .standard .sub {
+    margin-top: 25px;
+    padding: 24px;
+    background-color: #333;
+    border: solid 1px #333;
+}
+
+.div_box .standard .sub h2 {
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.div_box .standard .sub .inputs {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div_box .standard .sub .inputs .line {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.div_box .standard .sub .inputs .line:last-child {
+    margin-bottom: 0px;
+}
+
+.div_box .standard .sub .inputs .line label {
+    margin-right: 15px;
+}
+
+.div_box .standard .sub .inputs .line input[type=text] {
+    padding: 12px;
+    border-bottom: solid 1px #fff;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+}
+
+.div_box .standard .sub .inputs .line input[type=text]::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.div_box input[type=submit] {
+    color: #fff;
+    background-color: #1b7ad3;
+    padding: 12px 48px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+
+/*MODAL CONTAINER*/
+
+#call {
+    position: fixed;
+    top: 10px;
+    padding: 12px 48px;
+    background-color: #1b7ad3;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    right: 10px;
+    font-size: 1em;
+}
+
+.modal_container {
+    width: 100%;
+    min-height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #11111183;
+}
+
+.modal_container .modal_upload_imagens {
+    width: 65%;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #333;
+}
+
+.modal_container .modal_upload_imagens header {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal_container .modal_upload_imagens header span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_container .modal_upload_imagens header span i {
+    margin-right: 10px;
+    color: #333;
+}
+
+.modal_container .modal_upload_imagens header span h1 {
+    font-size: 1.5em;
+}
+
+.modal_container .modal_upload_imagens header .upload_form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.modal_container .modal_upload_imagens header .upload_form label,
+input[type=submit] {
+    background-color: #222;
+    color: #fff;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_container .modal_upload_imagens header .upload_form input[type=submit] {
+    background-color: #4276d6;
+}
+
+.modal_container .modal_upload_imagens .vitrine {
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 20px;
+    height: 70vh;
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.modal_container .modal_upload_imagens .vitrine .image_box {
+    width: 100%;
+    background-color: #ebebeb;
+    padding: 12px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    transition: all linear .2s;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal_container .modal_upload_imagens .vitrine .image_box img {
+    width: 80%;
+}
+
+.modal_container .modal_upload_imagens .vitrine .image_box h3 {
+    margin: 10px 0px;
+    color: #555;
+}
+
+.modal_container .modal_upload_imagens .vitrine .image_box input[type=text] {
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.modal_container .modal_upload_imagens .vitrine .image_box button {
+    position: absolute;
+    background-color: #b82f2f;
+    color: #fff;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .2s;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: -190px;
+    margin-right: -240px;
+}
+
+.modal_container .modal_upload_imagens .vitrine .image_box button:hover {
+    background-color: #911717;
+}
+
+.modal_container .modal_upload_imagens .vitrine .image_box:hover button {
+    display: flex;
+}

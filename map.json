@@ -1,0 +1,60 @@
+{
+    "configuracoes": {
+        "website": {
+            "link_logo_web_site": "http:\/\/localhost\/templateDois\/\/public\/assets\/img\/celebra.png",
+            "proporcao_logo": "90",
+            "cor_principal": "#02a65f",
+            "cor_secundaria": "#00ea85",
+            "email_de_contato": "guilhermeZA.123123@gmail.com"
+        },
+        "redes_sociais": {
+            "facebook_link": "http:\/\/facebook.com",
+            "instagram": "http:\/\/instagram.com",
+            "twitter_link": "http:\/\/twitter.com",
+            "whatsapp": "https:\/\/wa.me\/55119123123"
+        }
+    },
+    "HOME": {
+        "SECTION_UM": {
+            "titulo_principal": "Consiga empr\u00e9stimo com juro mais baixo",
+            "text_sub": "O Cr\u00e9dito Consignado P\u00fablico \u00e9 ideal pra servidores, aposentados e pensionistas realizarem seus maiores sonhos, com taxas a partir de 1,30% a.m. Simule seu empr\u00e9stimo agora.",
+            "valor_max_to_simulation": "240000",
+            "juros_am_to_simulation": "15.90",
+            "imagem_de_fundo": "http:\/\/localhost\/templateDois\/public\/assets\/img\/pessoas.jpg"
+        },
+        "SECTION_DOIS": {
+            "titulo_principal": "POR QUE ESCOLHER O EMPR\u00c9STIMO CONSIGNADO ?",
+            "sub_titulo": "A (NOME DA EMPRESA) te ajuda a escolher a solu\u00e7\u00e3o ideal para voc\u00ea aproveitar o melhor da vida!",
+            "text": "O Empr\u00e9stimo consignado celebra \u00e9 ideal para quem precisa quitar d\u00edvidas, quer comprar ou trocar seu ve\u00edculo, reformar seu im\u00f3vel, planeja fazer uma viagem ou simplesmente tem grandes planos.",
+            "colum_text_um_title": "QUAL O LIMITE PARA MEU EMPR\u00c9STIMO CONSIGNADO",
+            "colum_text_um_text": "Existe um limite que o INSS \/ \u00d3rg\u00e3o P\u00fablico autoriza o banco a emprestar para n\u00e3o prejudicar o seu or\u00e7amento. Ele define que voc\u00ea s\u00f3 poder\u00e1 pegar um cr\u00e9dito que seja de at\u00e9 35% do seu benef\u00edcio, e esse valor \u00e9 chamado de margem consign\u00e1vel, sendo que at\u00e9 30% desse limite \u00e9 utilizado no empr\u00e9stimo creditado diretamente na conta do Aposentado\/ Pensionista\/ Servidor p\u00fablico e 5% s\u00f3 poder\u00e1 ser utilizado no cart\u00e3o de cr\u00e9dito consignado",
+            "colum_text_dois_title": "CR\u00c9DITO CONSIGNADO PARA APOSENTADOS",
+            "colum_text_dois_text": "O cr\u00e9dito consignado para aposentados e pensionistas do INSS \u00e9 uma modalidade de empr\u00e9stimo com baixas taxas de juros e prazo de at\u00e9 72 meses para pagamento. N\u00e3o h\u00e1 consulta ao SPC nem ao Serasa, o cr\u00e9dito \u00e9 concedido de forma segura, r\u00e1pida e sem burocracia.",
+            "colum_text_tres_title": "CR\u00c9DITO CONSIGNADO PARA SERVIDORES P\u00daBLICOS",
+            "colum_text_tres_text": "O cr\u00e9dito consignado para servidores p\u00fablicos \u00e9 uma modalidade de cr\u00e9dito dispon\u00edvel para servidores Federais, Estaduais e Municipais com baixas taxas de juros e prazo de at\u00e9 96 meses para financiamento do cr\u00e9dito. N\u00e3o h\u00e1 consulta ao SPC nem ao Serasa. Tudo de forma f\u00e1cil, r\u00e1pida, sem burocracia e com toda comodidade que voc\u00ea precisa."
+        },
+        "SECTION_TRES": {
+            "square_um": "Parcelas direto na folha de pagamento",
+            "square_dois": "R\u00e1pido, seguro e livre de burocracia",
+            "square_tres": "Sem consulta de SPC e Serasa",
+            "square_quatro": "Taxas imbat\u00edveis!"
+        },
+        "SECTION_QUATRO": {
+            "titulo_principal": "COMO FUNCIONA ?",
+            "texto_um": "Informe o valor do cr\u00e9dito que voc\u00ea precisa ou o valor das parcelas",
+            "texto_dois": "Avaliamos sua solicita\u00e7\u00e3o e enviamos a proposta com a melhor solu\u00e7\u00e3o",
+            "texto_tres": "Ap\u00f3s o recebimento dos documentos e sua an\u00e1lise ser aprovada, o empr\u00e9stimo \u00e9 liberado em sua conta o mais breve poss\u00edvel."
+        },
+        "FAQ": {
+            "titulo_um": "O que \u00e9 um empr\u00e9stimo consignado ?",
+            "conteudo_um": "O Empr\u00e9stimo Consignado \u00e9 a melhor escolha para quem precisa de cr\u00e9dito com taxas reduzidas. Ao contratar, a parcela \u00e9 descontada mensalmente do benef\u00edcio. Ou seja, para aposentados, o valor \u00e9 descontado direto da aposentadoria.",
+            "titulo_dois": "Quais as vantagens ?",
+            "conteudo_dois": "Nossa contrata\u00e7\u00e3o \u00e9 r\u00e1pida e sem consulta aos \u00f3rg\u00e3os restritivos de cr\u00e9dito (SPC e Serasa). O valor das parcelas \u00e9 descontado direto na sua folha de pagamento ou benef\u00edcio, e para ajudar voc\u00ea a se organizar, ela n\u00e3o ultrapassa 30% do que voc\u00ea recebe por m\u00eas.",
+            "titulo_tres": "Quem pode contratar o emprestimo consignado ?",
+            "conteudo_tres": "No momento, nessa solu\u00e7\u00e3o 100% digital, atendemos apenas Aposentados, Pensionistas do INSS e Servidores P\u00fablicos."
+        },
+        "RODAP\u00c9": {
+            "final_text": "(NOME DA EMPRESA) - todos os direitos reservados - "
+        }
+    }
+}

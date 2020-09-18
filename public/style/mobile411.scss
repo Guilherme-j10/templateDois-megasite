@@ -1,0 +1,183 @@
+@media(max-width: 411px){
+    .header_template{
+        .big_filter{
+            #fixed_header{
+                padding: 5%;
+                height: 70px;
+            }
+            .header_top_line{
+                padding: 5%;
+                .logo{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    a{
+                        text-align: left;
+                    }
+                }
+
+                p{
+                    display: block;
+                }
+
+                ul{
+                    display: none;
+                }
+            }
+
+            .banner_header{
+                flex-direction: column;
+                padding: 5%;
+
+                .left_side, .right_side{
+                    width: 100%;
+                }
+
+                .left_side{
+                    h1{
+                        font-size: 2em;
+                    }
+                }
+
+                .left_side{
+                    margin-bottom: 20px;
+
+                    h1, p{
+                        text-align: center;
+                    }
+                }
+
+                .right_side{
+                    .container_simulation{
+                        width: 100%;
+
+                        .valor_emprestimo{
+                            width: 90%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .first_section{
+        flex-direction: column;
+        padding: 15% 5%;
+
+        .top_side_left, .top_right_side{
+            width: 100%;
+        }
+
+        .top_right_side{
+            h1{
+                font-size: 1.8em;
+                margin-bottom: 10px;
+            }
+
+            h3{
+                margin: 10px 0px;
+            }
+
+            h1, h3, p{
+                text-align: center;
+            }
+        }
+    }
+
+    .vantagens{
+        padding: 5%;
+        grid-template-columns: 1fr;
+
+        .container_text_info{
+            align-items: center;
+
+            h1{
+                font-size: 20px;
+            }
+
+            h1, p{
+                text-align: center;
+            }
+        }
+    }
+
+    .conteinar_box{
+        padding: 15% 5%;
+        grid-template-columns: 1fr;
+    }
+
+    .how_work{
+        grid-template-columns: 1fr;
+        padding: 5%;
+
+        .how{
+            align-items: center;
+
+            h1{
+                text-align: center;
+            }
+
+            ul{
+                li{
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-bottom: 40px;
+
+                    p{
+                        text-align: center;
+                        margin-right: 0px;
+                    }
+
+                    i{
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .container_questions{
+        padding: 15% 5%;
+
+        .header_top{
+            h1{
+                text-align: center;
+            }
+        }
+
+        ul{
+            width: 100%;
+        }
+    }   
+
+    .fale_conosco{
+        padding: 15% 5%;
+
+        form{
+            .duble_inputs, textarea{
+                width: 100%;
+            }
+
+            input[type=submit]{
+                margin-top: 20px;
+            }
+        }
+    }
+
+    footer{
+        .filter_footer{
+            .header_footer{
+                margin-bottom: 40px;
+                ul{
+                    display: none;
+                }
+            }
+
+            p{
+                text-align: center;
+            }
+        }
+    }
+}
